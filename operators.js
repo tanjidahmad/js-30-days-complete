@@ -57,3 +57,36 @@ console.log(10 > 5);
 // !==  strict inequality
 
 ///
+//HTML input থেকে value নিলে সাধারণত সেটা String হিসেবে পাওয়া যায়।
+
+console.log(Boolean(1));
+console.log(Boolean(0));
+console.log(Boolean("hello"));
+console.log(Boolean(""));
+console.log(Boolean(null));
+console.log(Boolean(undefined));
+// logical operators
+// &&   → AND
+// ||   → OR
+// !    → NOT
+// 0 → "কোনো numeric value নেই" → Falsy
+// non-zero → actual numeric value → Truthy
+let username = "";
+
+let displayName = username || "Guest";
+
+// console.log(displayName);
+// let username = "Tanjid";
+
+// let displayName = username || "Guest";
+
+// console.log(displayName);
+console.log(null || "Guest");
+console.log(undefined || "User");
+console.log(false || 100);
+console.log(NaN || 50);
+console.log("0" || 100);
+
+//ternary operators  jeta if else lekhar short cut jekhane amra question mark and color use korsi bujanor jonno 
+// condition ta question mark er age thake tarpor if value true tarpor colon thake then value if false
+
