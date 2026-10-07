@@ -17,7 +17,7 @@
 // //()== parameter rakhanr jaiga jekhane parameter raha hoi 
 // // {}== jekhane function er sokol code kore hoi 
 
-// //// function build orlei kaj hoi na function call korte hoi jetae function call bole ba function invocation 
+// //// function build korlei kaj hoi na function call korte hoi jetae function call bole ba function invocation 
 
 
 // /// sayHello()===function call/function invocation
